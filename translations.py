@@ -6,7 +6,7 @@ from graph import updateTranslations
 
 def gemini(ingredients):
     
-    genai.configure(api_key='AIzaSyBDY6NKnOugfvx_ZJvyoyMlQra0RUkwAtQ')
+    genai.configure(api_key='')
 
     model = genai.GenerativeModel('gemini-1.5-flash')
 
